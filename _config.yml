@@ -1,0 +1,21 @@
+# GitHub Pages config — PUBLIC repo that hosts ShiftBell's legal pages only.
+#
+# Why a separate repo: the app repo (industry2205/shiftbell) is private, and
+# GitHub Pages from a private repo requires a paid plan. This repo carries no
+# source code, so it can be public for free.
+#
+# Repo Settings → Pages → Source: "Deploy from a branch", Branch: main, Folder: / (root)
+# Resulting URLs (the ones App Store Connect needs):
+#   https://industry2205.github.io/shiftbell-legal/legal/privacy-policy.html
+#   https://industry2205.github.io/shiftbell-legal/legal/terms-of-use.html
+#   https://industry2205.github.io/shiftbell-legal/support.html
+title: ShiftBell
+description: Rotation-aware alarms for shift workers.
+theme: jekyll-theme-minimal
+lang: en
+
+# REQUIRED for a project site. Without `baseurl` the theme stylesheet resolves
+# to the domain root and 404s — the page loads completely unstyled, which is not
+# what a reviewer should see when opening your privacy policy.
+url: https://industry2205.github.io
+baseurl: /shiftbell-legal
