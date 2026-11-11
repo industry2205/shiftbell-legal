@@ -27,24 +27,25 @@ If you choose the Selfie wake method, the App opens the camera so you can take a
 If you choose a photo of your work roster to be read, the App sends that photo (including any names printed on it) and any note you add to it, through our server, to OpenAI, L.L.C. in the United States, which reads it and returns the shifts. This happens only after you agree on the notice that appears before the first photo is sent.
 
 - **Our server** (run by Cloudflare, Inc. in the United States) passes the photo on and does not store it or log its contents. For each request it records only the time, the result and the region the request came from, and Cloudflare keeps that record for up to 7 days.
+- **Monthly allowance:** photo reading is part of ShiftBell Pro and covers up to 20 photos a month. To check this, the App also sends the record of your purchase that Apple signed. The server confirms Apple's signature and keeps only a code made from the purchase's transaction number with a secret key, together with how many photos were read that month, for up to 45 days. The code cannot be turned back into the transaction number or your Apple Account.
 - **OpenAI** may keep the photo and its reading for up to 30 days to detect abuse, and does not use them to train its models. OpenAI processes them as our service provider under its Data Processing Addendum; transfers from the EU and UK rely on the European Commission's Standard Contractual Clauses.
 - **Withdrawing:** Settings ▸ Roster photos ▸ Withdraw consent. Nothing more is sent, and you will be asked again before any later photo. You can always enter shifts by hand instead; declining does not limit the rest of the App or ShiftBell Pro.
 - Photo reading is not offered in mainland China, Hong Kong or Macau.
 
 ### Overseas transfer (for users in Korea · 개인정보 국외 이전)
 - Recipients: OpenAI, L.L.C. (privacy@openai.com), United States, which reads the photo; and Cloudflare, Inc., United States, which runs our server and passes the photo on
-- Items: the roster photo you choose (which may include names) and any note you add
+- Items: the roster photo you choose (which may include names) and any note you add; for Pro, Apple's signed record of your purchase (to Cloudflare only)
 - When and how: when you tap to read a roster, over an encrypted connection through our server
-- Purpose: reading the shifts on the roster
-- Retention: up to 30 days at OpenAI, then deleted. Cloudflare does not store the photo; the request record above is kept for up to 7 days
+- Purpose: reading the shifts on the roster, and counting the monthly photo allowance
+- Retention: up to 30 days at OpenAI, then deleted. Cloudflare does not store the photo; the request record above is kept for up to 7 days, and the monthly count for up to 45 days
 - Refusing: do not agree on the notice, or withdraw in Settings; you can still enter shifts by hand
 
 한국어 안내 (개인정보 보호법 제28조의8):
 - 이전받는 자: OpenAI, L.L.C.(미국, privacy@openai.com): 근무표 읽기 / Cloudflare, Inc.(미국): 당사 서버 운영 및 사진 전달
-- 이전 항목: 사용자가 고른 근무표 사진(이름이 포함될 수 있음)과 덧붙인 메모
+- 이전 항목: 사용자가 고른 근무표 사진(이름이 포함될 수 있음)과 덧붙인 메모, Pro 이용 시 Apple이 서명한 구매 기록(Cloudflare에만)
 - 이전 시기·방법: 사용자가 근무표 읽기를 누를 때, 당사 서버를 거쳐 암호화된 통신으로 전송
-- 이용 목적: 근무표의 근무 읽기
-- 보유·이용 기간: OpenAI 최대 30일 후 삭제. Cloudflare는 사진을 저장하지 않으며, 요청 기록(시각·결과·지역)만 최대 7일간 보관
+- 이용 목적: 근무표의 근무 읽기, 월 사진 한도 확인
+- 보유·이용 기간: OpenAI 최대 30일 후 삭제. Cloudflare는 사진을 저장하지 않으며, 요청 기록(시각·결과·지역)은 최대 7일, 월 사용 횟수는 최대 45일간 보관
 - 거부 방법과 효과: 안내에 동의하지 않거나 설정 ▸ 근무표 사진 ▸ 동의 철회. 이 경우에도 근무를 직접 입력해 앱을 그대로 사용할 수 있습니다
 
 ## Calendar (optional)
