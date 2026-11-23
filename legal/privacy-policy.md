@@ -1,6 +1,6 @@
 # ShiftBell — Privacy Policy
 
-_Last updated: November 12, 2026_
+_Last updated: November 23, 2026_
 
 ShiftBell ("the App", "we") is made by BORABADA. ShiftBell works without accounts and keeps your data on your device, with two optional exceptions you control: an iCloud backup to your own iCloud, and roster photos you choose to have read (below). This policy explains what the App does and does not collect.
 
@@ -18,7 +18,7 @@ If you enable the morning briefing, the App uses your approximate location to fe
 Weather data is provided by Apple Weather. The meteorological sources behind it are listed on Apple's attribution page: [Apple Weather data sources](https://weatherkit.apple.com/legal-attribution.html).
 
 ## Purchases and subscriptions
-ShiftBell Pro is optional. Payments are processed by Apple. We use RevenueCat to validate and manage your subscription entitlement. RevenueCat receives a randomly generated app-user identifier and your App Store purchase/receipt information; it does not receive your name or contact details. See Apple's and RevenueCat's privacy policies for how they handle this data.
+ShiftBell Pro is optional. Payments are processed by Apple. We use RevenueCat to validate and manage your subscription entitlement. RevenueCat receives a randomly generated app-user identifier and your App Store purchase/receipt information; it does not receive your name or contact details. It also receives three facts about how far setup got, attached to that same random identifier: whether a shift has been entered, whether alarms are allowed, and whether an alarm has rung. They contain no schedule, no times and no personal data; they tell us where new users give up. See Apple's and RevenueCat's privacy policies for how they handle this data.
 
 ## Camera (optional)
 If you choose the Selfie wake method, the App opens the camera so you can take a wake photo as proof you were up. Photos stay on your device, are encrypted at rest, and are removed automatically after 30 days. You can look at them and delete them at any time in Settings ▸ Wake confirmation ▸ Stored wake photos, or turn saving off entirely with the "Keep wake photos" switch. Nothing is uploaded, and they are excluded from backups. The Place method compares the photo against the reference you registered and discards it without storing it. Photographing a work roster is different: see "Roster photos" below.
